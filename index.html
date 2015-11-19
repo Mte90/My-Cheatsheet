@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>My Cheatsheet</title>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="assets/css/bootstrap.css">
+      <link rel="stylesheet" href="cheatsheet/assets/css/bootstrap.css">
+      <link rel="stylesheet" href="assets/css/cheatsheet.css">
+      <link rel="stylesheet" href="cheatsheet/assets/css/cheatsheet.css">
+   </head>
+   <body>
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col col-lg-2">
+               <div class="sidebar">
+                  <ul class="nav nav-pills nav-stacked">
+                     <li class="active"><a href="#shell">Shell</a></li>
+                     <li class="active"><a href="#php">PHP</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col col-lg-10">
+               <div class="row">
+                  <div class="col col-lg-6">
+                     <div id="shell" class="accordion-panel">
+                        <div class="accordion" id="accordion0">
+                           <h4 class="accordion-title">Shell</h4>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion0" href="#accordion0-toggle1">
+                                 <i class="toggle-chevron"></i>
+                                 HowDoI
+                                 </a>
+                              </dt>
+                              <dd id="accordion0-toggle1" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>howdoi terms</code>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion0" href="#accordion0-toggle2">
+                                 <i class="toggle-chevron"></i>
+                                 Fuck - Corrects previous console command
+                                 </a>
+                              </dt>
+                              <dd id="accordion0-toggle2" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <p>Wrong command</p>
+                                    <code>fuck</code>
+                                    <p>Fix the previous command</p>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion0" href="#accordion0-toggle12">
+                                 <i class="toggle-chevron"></i>
+                                 NPM Check
+                                 </a>
+                              </dt>
+                              <dd id="accordion0-toggle12" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>npm-check -u -g</code>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#accordion6-toggle16">
+                                 <i class="toggle-chevron"></i>
+                                 Optimage
+                                 </a>
+                              </dt>
+                              <dd id="accordion6-toggle16" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <p>Execute from the folder with photos</p>
+                                    <code>optimage.sh</code>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#accordion6-toggle17">
+                                 <i class="toggle-chevron"></i>
+                                 Youtube Upload
+                                 </a>
+                              </dt>
+                              <dd id="accordion6-toggle17" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>youtube-upload --title="title" video.flv</code><br>
+                                    <code>youtube-upload --title="title" --auth-browser video.flv</code><br>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <h4 class="accordion-title">Git</h4> 
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion0" href="#accordion0-toggle3">
+                                 <i class="toggle-chevron"></i>
+                                 Rename Last Commit
+                                 </a>
+                              </dt>
+                              <dd id="accordion0-toggle3" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>git-commit-rename</code>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion0" href="#accordion0-toggle4">
+                                 <i class="toggle-chevron"></i>
+                                 Remove Last Commit
+                                 </a>
+                              </dt>
+                              <dd id="accordion0-toggle4" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>git-remove-last-commit</code>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion0" href="#accordion0-toggle5">
+                                 <i class="toggle-chevron"></i>
+                                 Hub
+                                 </a>
+                              </dt>
+                              <dd id="accordion0-toggle5" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>git clone dotfiles</code><br>
+                                    <code>git clone github/hub</code><br>
+                                    <p>Clone the project</p>
+                                    <code>git browse -- issues</code><br>
+                                    <p>Open the issues in the browser</p>
+                                    <code>git clone github/hub</code><br>
+                                    <code>cd hub</code><br>
+                                    <code>git checkout -b feature</code><br>
+                                    <code>git commit -m "done with feature"</code><br>
+                                    <code>git fork</code><br>
+                                    <code>git push Mte90 feature</code><br>
+                                    <code>git pull-request</code><br>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion0" href="#accordion0-toggle51">
+                                 <i class="toggle-chevron"></i>
+                                 Git Update SubModule
+                                 </a>
+                              </dt>
+                              <dd id="accordion0-toggle51" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>git submodule update --recursive</code><br>
+                                    <code>git submodule foreach git pull origin master</code><br>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <h4 class="accordion-title">Svn</h4> 
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion0" href="#accordion0-toggle13">
+                                 <i class="toggle-chevron"></i>
+                                 SVN Diff
+                                 </a>
+                              </dt>
+                              <dd id="accordion0-toggle13" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>svn diff > ticket-number.patch</code>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion0" href="#accordion0-toggle14">
+                                 <i class="toggle-chevron"></i>
+                                 SVN Revert
+                                 </a>
+                              </dt>
+                              <dd id="accordion0-toggle14" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>svn-revert</code><br>
+                                    Revert to the svn release
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion0" href="#accordion0-toggle15">
+                                 <i class="toggle-chevron"></i>
+                                 SVN Up
+                                 </a>
+                              </dt>
+                              <dd id="accordion0-toggle15" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>svn up</code><br>
+                                    Update the svn repo
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion0" href="#accordion0-toggle16">
+                                 <i class="toggle-chevron"></i>
+                                 Apply a patch
+                                 </a>
+                              </dt>
+                              <dd id="accordion0-toggle16" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>patch -p0 < ticket-nubmer.patch</code><br>
+                                 </div>
+                              </dd>
+                           </dl>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col col-lg-6">
+                     <div id="php" class="accordion-panel">
+                        <div class="accordion" id="accordion6">
+                           <h4 class="accordion-title">PHP</h4>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#accordion6-toggle7">
+                                 <i class="toggle-chevron"></i>
+                                 Qafoo
+                                 </a>
+                              </dt>
+                              <dd id="accordion6-toggle7" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>qafoo --exclude=*cmb*,index.php,*.js,WP_*,CPT_* analyze ./</code><br>
+                                    <code>qafoo serve</code>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#accordion6-toggle8">
+                                 <i class="toggle-chevron"></i>
+                                 PHPMetrics
+                                 </a>
+                              </dt>
+                              <dd id="accordion6-toggle8" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>phpmetrics --report-html=/path/of/your/choice.html <folder or filename></code>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#accordion6-toggle9">
+                                 <i class="toggle-chevron"></i>
+                                 VV Create
+                                 </a>
+                              </dt>
+                              <dd id="accordion6-toggle9" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <p>Blueprint set: <code>dev-plugin</code> o <code>dev-woocommerce</code></p>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#accordion6-toggle10">
+                                 <i class="toggle-chevron"></i>
+                                 PHPDoc with PhpCS/PhpCbf
+                                 </a>
+                              </dt>
+                              <dd id="accordion6-toggle10" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <p>PHP CodeSniffer with PHPDoc compatible: <code>phpdoc</code></p>
+                                    <p>PHP Code Beautifier and Fixer with PHPDoc compatible: <code>phpdoccbf</code></p>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <h4 class="accordion-title">WordPress</h4> 
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#accordion6-toggle11">
+                                 <i class="toggle-chevron"></i>
+                                 VVV Debug Tail
+                                 </a>
+                              </dt>
+                              <dd id="accordion6-toggle11" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>vvv-debug-tail site-name</code>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion0" href="#accordion0-toggle23">
+                                 <i class="toggle-chevron"></i>
+                                 WordPress wp-config.php
+                                 </a>
+                              </dt>
+                              <dd id="accordion0-toggle23" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>define( 'WP_DEBUG', true );</code><br>
+                                    <code>define ('JETPACK_DEV_DEBUG', true );</code><br>
+                                    <code>define( 'WP_DEBUG_LOG', true );</code><br>
+                                    <code>define( 'SCRIPT_DEBUG', true );</code><br>
+                                    <code>if ( defined( 'DOING_AJAX' ) && DOING_AJAX || defined( 'DOING_CRON' ) && DOING_CRON ) {</code><br>
+                                    <code>    define( 'WP_DEBUG_DISPLAY', false );</code><br>
+                                    <code>    @ini_set( 'display_errors', 0 );</code><br>
+                                    <code>} else {</code><br>
+                                    <code>    define( 'WP_DEBUG_DISPLAY', true );</code><br>
+                                    <code>}</code><br>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#accordion6-toggle13">
+                                 <i class="toggle-chevron"></i>
+                                 WPBP
+                                 </a>
+                              </dt>
+                              <dd id="accordion6-toggle13" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>yo wp-plugin-boilerplate-powered dev</code>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#accordion6-toggle14">
+                                 <i class="toggle-chevron"></i>
+                                 wp-boilerplate-version
+                                 </a>
+                              </dt>
+                              <dd id="accordion6-toggle14" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>wp-boilerplate-version /path/my-new-plugin/ 1.1.1</code>
+                                 </div>
+                              </dd>
+                           </dl>
+                           <dl class="accordion-group">
+                              <dt class="accordion-heading">
+                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#accordion6-toggle15">
+                                 <i class="toggle-chevron"></i>
+                                 Convert WP Readme/Md format 
+                                 </a>
+                              </dt>
+                              <dd id="accordion6-toggle15" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                    <code>readme-converter.sh [from-file] [to-file] [format to-wp|from-wp]</code>
+                                 </div>
+                              </dd>
+                           </dl>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="assets/js/jquery.js"></script>
+      <script src="cheatsheet/assets/js/jquery.js"></script>
+      <script src="assets/js/bootstrap-collapse.js"></script>
+      <script src="cheatsheet/assets/js/bootstrap-collapse.js"></script>
+      <script>
+         // Quickfix keep multiple accordion groups open at the same time
+         $(function() {
+           $('.accordion').on('show', function(e) {
+             $(e.target).prev('.accordion-heading').find('.accordion-toggle').addClass('active');
+           });
+           $('.accordion').on('hide', function(e) {
+             $(this).find('.accordion-toggle').not($(e.target)).removeClass('active');
+           });
+         });
+      </script>
+   </body>
+</html>
